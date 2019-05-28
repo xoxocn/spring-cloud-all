@@ -15,8 +15,9 @@ public class DemoController {
     @Autowired
     private ShopInterface shopInterface;
 
-    @GetMapping("test")
-    public String test(){
+    //kafka测试接口
+    @GetMapping("kafka-test")
+    public String kafkaTest(){
         String s = shopInterface.sendShopMessage("i 'm xoxo");
         return s;
     }
