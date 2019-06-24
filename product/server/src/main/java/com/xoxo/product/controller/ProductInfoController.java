@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -100,4 +101,8 @@ public class ProductInfoController {
         return productInfoService.decreaseStock(decreaseStockInputList);
     }
 
+    @GetMapping("checkBigDecimal")
+    public void checkBigDecimal(@RequestParam BigDecimal bigDecimal){
+        log.info(bigDecimal.toString());
+    }
 }
