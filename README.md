@@ -14,29 +14,29 @@
 
    ├── server // 上线项目文件	// 服务层，实现client接口
 
-   ​	├── src/main/java/com/xoxo
+   	 ├── src/main/java/com/xoxo
 
-   ​		├── config		//基础配置，filter、handler、aop等
+   		├── config		//基础配置，filter、handler、aop等
 
-   ​		├── controlller	//控制层
+   		├── controlller	//控制层
 
-   ​		├── dto			//控制层与逻辑层交互，数据传输层
+   		├── dto			//控制层与逻辑层交互，数据传输层
 
-   ​		├── enums		//各种枚举，异常枚举、基础枚举、常量枚举等
+   		├── enums		//各种枚举，异常枚举、基础枚举、常量枚举等
 
-   ​	 	├── exception	//异常类，自定义异常
+   	 	├── exception	//异常类，自定义异常
 
-   ​		├── form		//前端与控制层交互，存放表单，可做数据校验
+   		├── form		//前端与控制层交互，存放表单，可做数据校验
 
-   ​		├── mapper		//dao层
+   		├── mapper		//dao层
 
-   ​		├── model		//entity层
+   		├── model		//entity层
 
-   ​		├── service		//逻辑层
+   		├── service		//逻辑层
 
-   ​		├── utils		//工具包
+   		├── utils		//工具包
 
-   ​		├── VO			//VO，控制层与前端交互响应数据
+   		├── VO			//VO，控制层与前端交互响应数据
 
    1.2 日志模块
 
