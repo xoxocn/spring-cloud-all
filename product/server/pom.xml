@@ -16,7 +16,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <mybatis-plus-boot-starter.version>3.0.6</mybatis-plus-boot-starter.version>
-        <ali.fastjson.version>1.2.47</ali.fastjson.version>
+        <ali.fastjson.version>1.2.83</ali.fastjson.version>
         <java.version>1.8</java.version>
         <commons-lang3.version>3.7</commons-lang3.version>
         <servlet-api.version>2.2</servlet-api.version>
